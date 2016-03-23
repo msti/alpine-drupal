@@ -7,4 +7,4 @@ crond
 rm -rf /run/apache2/httpd.pid
 rm -rf /var/run/crond.pid
 
-exec sh -c "/usr/sbin/httpd -D FOREGROUND"
+exec /usr/sbin/httpd -D FOREGROUND
